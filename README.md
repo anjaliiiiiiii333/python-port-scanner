@@ -1,34 +1,31 @@
 # Python Port Scanner
 
-A simple TCP port scanner built using Python's socket module.
+A simple TCP port scanner built using Python.
 
-## Features
+## 🚀 Features
 
-- Scans common TCP ports
-- Detects open and closed ports
-- Displays service names (SSH, HTTP, HTTPS, etc.)
-- Uses socket programming
-- Configurable timeout
+- Scan common TCP ports
+- Detect open and closed ports
+- Display service names
+- Measure scan time
+- Clean terminal interface
 
-## Technologies Used
+## 🛠 Technologies
 
 - Python
 - Socket Module
 - Git
 - GitHub
 
-## How to Run
+## 📷 Sample Output
 
-```bash
-python scanner.py
-```
+![Port Scanner Output](images/output.png)
 
-Enter the target IP address or hostname when prompted.
-
-## What I Learned
+## 📚 What I Learned
 
 - Socket programming
 - TCP ports and services
-- Loops and dictionaries
-- Python networking basics
-- Git and GitHub workflow
+- Dictionaries
+- Loops
+- Python networking
+- Git and GitHub

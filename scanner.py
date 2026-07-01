@@ -1,4 +1,7 @@
 import socket
+print("=" * 40)
+print("      PYTHON PORT SCANNER")
+print("=" * 40)
 target = input("Enter the IP address:")
 services = {
     21: "FTP",
@@ -12,6 +15,7 @@ for port in common_ports:
     sock.settimeout(1)
     result=sock.connect_ex((target,port))
     if result == 0:
-        print(f"port{port} ({services.get(port, 'Unknown')}) is open ")
+      print(f"✅ Port {port} ({services.get(port,'Unknown')}) is OPEN")
     else:
-        print(f"port{port} is closed ")
+        print(f"❌ Port {port} ({services.get(port,'Unknown')}) is CLOSED")
+    sock.close()

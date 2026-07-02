@@ -6,7 +6,10 @@ def display_header():
     print("      PYTHON PORT SCANNER")
     print("=" * 40)
 display_header()
-target = input("Target host:")
+target = input("Target Host: ")
+def display_target(target):
+    print(f"Target Host: {target}")
+display_target(target)
 services = {
     21: "FTP",
     22: "SSH",

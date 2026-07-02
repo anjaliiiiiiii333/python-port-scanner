@@ -1,9 +1,11 @@
 
 import socket
 import time
-print("=" * 40)
-print("      PYTHON PORT SCANNER")
-print("=" * 40)
+def display_header():
+    print("=" * 40)
+    print("      PYTHON PORT SCANNER")
+    print("=" * 40)
+display_header()
 target = input("Target host:")
 services = {
     21: "FTP",
